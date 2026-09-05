@@ -6,6 +6,9 @@ class CharacterCount {
 
         String input = sc.nextLine();
 
+
+        System.out.println(input);
+
         String[] words = input.split(" ");
 
         for (String word : words) {
